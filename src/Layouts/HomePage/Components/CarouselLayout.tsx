@@ -101,7 +101,7 @@ function CarouselLayout({ images, title, subtitle, backgroundProps}: CarouselLay
       </Box>
       <Box
         sx={{
-          width: "80%",
+          width: "119vh",
           padding: "0em 20em",
           display: "flex",
           justifyContent: "flex-end",

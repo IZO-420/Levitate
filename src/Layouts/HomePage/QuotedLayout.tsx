@@ -15,6 +15,7 @@ function QuotedLayout() {
         alignItems: "center",
         height: "80vh",
         backgroundColor: "#000",
+        width:'100%'
       }}
     >
         <Typography

@@ -44,13 +44,13 @@ function ExperienceLayout() {
       }
 
   return (
-    <Box sx={{backgroundColor:'black', width:'100%',height:'195.5vh'}}>
+    <Box sx={{backgroundColor:'black', width:'100%',height:'auto'}}>
         <Typography variant="h3" sx={{color:'white',textAlign:'center',padding:'3em 0em'}}>EXPERIENCE</Typography>
        <ImageList
-      sx={{ width: '100%',margin:0,height:'152vh' }}
+      sx={{ width: '100%',margin:0,height:'auto' }}
       variant="quilted"
       cols={4}
-      rowHeight={150}
+      rowHeight={'auto'}
       gap={0}
     >
       {images.map((item,index) => (
