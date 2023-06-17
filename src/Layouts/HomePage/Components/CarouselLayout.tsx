@@ -41,13 +41,14 @@ function CarouselLayout({ images, title, subtitle, backgroundProps}: CarouselLay
         justifyContent: "flex-start",
         alignItems: "center",
         flexDirection: "column",
-        height: "80vh",
+        height: "auto",
         padding: "0em 10em",
         ...backgroundProps,
       }}
     >
       <Grid container sx={{ width: "100%",
-            marginBottom:'5em',
+            marginBottom:'6em',
+            marginTop:'6em',
             padding:'0em 2em'
         }}>
         <Grid
@@ -74,7 +75,7 @@ function CarouselLayout({ images, title, subtitle, backgroundProps}: CarouselLay
             opacity:0.7
           }}
         >
-          <Typography variant="body2" sx={{ color: "white", fontFamily:'Poppins', fontWeight:'400' }}>
+          <Typography variant="body2" sx={{ color: "white", fontFamily:'Poppins', fontWeight:'400'}}>
             {subtitle}
           </Typography>
         </Grid>

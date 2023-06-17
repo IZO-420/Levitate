@@ -5,12 +5,6 @@ import marketingImage from'../../Assets/images/Advisory/2.png'
 import digitalTransformationImage from'../../Assets/images/Advisory/3.png'
 import businessProcessImage from'../../Assets/images/Advisory/4.png'
 import CarouselLayout from "./Components/CarouselLayout";
-import background from "../../Assets/images/Advisory/AdvisorybackG.png" 
-
-const backgroundProps={backgroundImage:`url(${background})`,
-backgroundSize: '200vh 140vh',
-backgroundRepeat: 'no-repeat',
-backgroundPosition: 'bottom left'}
 
 function AdvisoryLayout() {
 

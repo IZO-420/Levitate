@@ -13,7 +13,7 @@ import background from "../Assets/images/Advisory/AdvisorybackG.png";
 
 const backgroundProps = {
   backgroundImage: `url(${background})`,
-  backgroundSize: "200vh 140vh",
+  backgroundSize: "201vh 140vh",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "bottom left",
   backgroundColor: "#000",
@@ -21,7 +21,7 @@ const backgroundProps = {
 
 const backgroundProps2 = {
   backgroundImage: `url(${background2})`,
-  backgroundSize: "200vh 140vh",
+  backgroundSize: "201vh 140vh",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "bottom left",
   backgroundColor: "#000",

@@ -5,12 +5,6 @@ import marketingImage from'../../Assets/images/Agency/2.png'
 import digitalTransformationImage from'../../Assets/images/Agency/3.png'
 import businessProcessImage from'../../Assets/images/Agency/4.png'
 import CarouselLayout from "./Components/CarouselLayout";
-import background from '../../Assets/images/Agency/AgencyBG.png'
-
-const backgroundProps={backgroundImage:`url(${background})`,
-backgroundSize: '200vh 140vh',
-backgroundRepeat: 'no-repeat',
-backgroundPosition: 'bottom left'}
 
 function AgencyLayout() {
 
